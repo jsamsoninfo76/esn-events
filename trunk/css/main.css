@@ -1,0 +1,174 @@
+@font-face {
+	font-family: Avenir;
+	src: url("../fonts/Avenir-Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: IdolWild;
+	src: url("../fonts/Idolwild.ttf") format("opentype");
+}
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	background: #6baecb;
+	background-image:url(../images/website/background450.png) ;
+	background-attachment:fixed;
+}
+
+#main
+{
+	margin : auto; 
+	background-color: #ffffff; 
+	width:900px;
+	box-shadow: 2px 2px 60px #555;
+	margin-top:10px;
+}
+
+img
+{
+	display: block; 
+	border : none; 
+	width:64px; 
+	height:64px;
+	border-radius: 10px;
+}
+
+#top
+{
+	position:fixed;
+	width:100%; 
+	background-color:#1C1C1C;
+	color:#fff;
+	background-attachment: scroll;
+	border-radius: 5px;
+}
+#top table
+{
+	padding-right:60px;
+	float:right;
+	height:30px;
+}
+
+#top a {border:0; color:#FFFFFF}
+#top a:visited {border:0; color:#FFFFFF}
+#top a:hover {border:0; color:#FFFFFF}
+
+.table_blue
+{
+	border:1px;
+	width: 840px;
+	margin-right:10px;
+}
+
+#button
+{
+	background-image:url(../images/website/button_event1.png);
+	width:150px;
+	height:60px;
+}
+#button_contener
+{
+	
+	margin-left:730px;
+	margin-right:20px;
+
+}
+#button:hover
+{
+	background-image:url(../images/website/button_event2.png);
+	width:150px;
+	height:60px;
+	cursor:pointer;
+}
+
+#button:active  
+{
+	background-image:url(../images/website/button_event3.png);
+	width:150px;
+	height:60px;
+	cursor:pointer;
+
+} 
+
+h3
+{
+	margin-left : 5%;
+	font-size:170%;
+	font-family: 'Baumans', cursive;
+	color: #e10277;
+	text-decoration:underline;
+
+}
+
+#frameFoot
+{
+	text-align:center;
+
+}
+
+#logo
+{
+	background-image:url(../images/website/LOGO_CYGNE.jpg);
+	width:900px;
+	height:200px;
+	/*position: relative; */
+}
+
+th
+{
+	color: #e10277;
+	font-size:110%;
+	font-family: 'Lobster Two', cursive;
+	
+}
+.table_blue td
+{
+	
+	background-color: #e6f5fb;
+	text-align:center;
+	color:#0090ce;
+	font-family: 'Arvo', serif;
+	border-radius: 10px;
+}
+
+.icones
+{
+	height: 64px;
+	width: 32px;
+}
+.icone2
+{
+	height: 32px;
+	width: 32px;
+}
+.icone1
+{
+	height: 32px;
+	width: 32px;
+}
+.icones:hover
+{
+	background-image:url(../images/website/icones.png);
+}
+.icone2:hover 
+{
+	background-image:url(../images/website/delete.png);
+}
+.icone1:hover 
+{
+	background-image:url(../images/website/edit.png);	
+}
+
+.i_tr 
+{
+	height: 64px;
+	
+}
+.i_tr:hover td 
+{
+	background-color : #5bbfea; 
+	color:white;
+	cursor:pointer;
+
+}

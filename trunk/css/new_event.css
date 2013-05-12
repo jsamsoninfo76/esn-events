@@ -1,0 +1,314 @@
+@font-face {
+	font-family: Avenir;
+	src: url("../fonts/Avenir-Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: IdolWild;
+	src: url("../fonts/Idolwild.ttf") format("opentype");
+}
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	background: #6baecb;
+	background-image:url(../images/website/background450.png);
+	background-attachment:fixed;
+}
+
+#main
+{
+	/*margin : auto; */
+	background-color: #ffffff; 
+	width:900px;
+	box-shadow: 2px 2px 60px #555;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#date
+{
+	color:#0090ce;
+	font-family: 'Baumans', cursive;
+	margin-left:20px;
+	background-color: #e6f5fb;
+	border-radius: 10px;
+	width:120px;
+	text-align: center;
+	font-size:110%
+}
+#date p
+{
+	
+   vertical-align: middle; 
+   display: inline;
+   padding-top:auto;
+
+
+}
+
+#name
+{
+	color:#0090ce;
+	font-family: 'Baumans', cursive;
+	background-color: #e6f5fb;
+	border-radius: 10px;
+	text-align: center;
+	width:45%;
+	height: 40px;
+	text-decoration:underline;
+	font-size:150%
+}
+#name p
+{
+   vertical-align: middle; 
+   display: inline;
+   padding-top:auto;
+
+
+}
+
+#pic img
+{
+	position: relative;
+	float: right;
+	width: 200px;
+	margin-right:20px;
+	border-radius: 10px;
+}
+h3
+{
+	margin-left : 5%;
+	font: 160% "IdolWild", Pristina, Arial, Helvetica, sans-serif;
+	color: #e10277;
+	text-decoration:underline;
+
+}
+
+#frameFoot
+{
+	text-align:center;
+
+}
+
+#logo
+{
+	background-image:url(../images/website/LOGO_CYGNE.jpg);
+	width:900px;
+	height:200px;
+	/*position: relative; */
+}
+
+
+#top
+{
+	position:fixed;
+	width:100%; 
+	background-color:#1C1C1C;
+	color:#fff;
+	background-attachment: scroll;
+	border-radius: 5px;
+}
+#top table
+{
+	padding-right:60px;
+	float:right;
+	height:30px;
+}
+
+#top a {border:0; color:#FFFFFF}
+#top a:visited {border:0; color:#FFFFFF}
+#top a:hover {border:0; color:#FFFFFF}
+
+
+.table_blue
+{
+	border:1px;
+	width: 840px;
+	background-color: #e6f5fb;
+	color:#0090ce;
+	font-family: 'Donegal One', serif;
+}
+.table_blue #table_index
+{
+	margin-right:10px;
+}
+
+#content_event
+{
+	margin:auto;
+	width:90%;
+	color:#0090ce;
+	font-family: 'Donegal One', serif;
+	overflow: auto;
+}
+
+
+h4
+{
+	background-color: #e6f5fb;
+	font-family: 'Baumans', cursive;
+}
+#login
+{
+
+}
+/*
+#form 	input[type=submit]{
+	
+	background-image:url(../images/website/save1.png);
+	width:150px;
+	height:60px;
+	border:0;
+}*/
+
+#save
+{
+	background-image:url(../images/website/save1.png);
+	width:150px;
+	height:60px;
+	margin-left:730px;
+	margin-right:20px;
+	border:0;
+}
+#button_contener
+{
+	width:100%;
+}
+
+#save:hover
+{
+	background-image:url(../images/website/save2.png);
+	width:150px;
+	height:60px;
+	cursor:pointer;
+}
+
+#save:active  
+{
+	background-image:url(../images/website/save3.png);
+	width:150px;
+	height:60px;
+	cursor:pointer;
+
+} 
+
+/*
+#form 	input[type=submit]:hover
+{
+	background-image:url(../images/website/save2.png);
+	width:150px;
+	height:60px;
+	cursor:pointer;
+}
+
+#form 	input[type=submit]:active  
+{
+	background-image:url(../images/website/save3.png);
+	width:150px;
+	height:60px;
+	cursor:pointer;
+
+} */
+#buttonprint
+{
+	background-image:url(../images/website/print1.png);
+	width:150px;
+	height:60px;
+	margin-left:730px;
+	/*margin-right:20px;*/
+	cursor:pointer;
+}	
+#buttonprint:hover
+{
+	background-image:url(../images/website/print2.png);
+}
+#buttonprint:active
+{
+	background-image:url(../images/website/print3.png);
+}
+
+#buttonedit
+{
+	background-image:url(../images/website/edit1.png);
+	width:100px;
+	height:40px;
+	position: absolute;
+	margin-top:18px;
+	margin-left:140px;
+}
+
+#buttonedit:hover
+{
+	background-image:url(../images/website/edit2.png);
+}
+#buttonedit:active
+{
+	background-image:url(../images/website/edit3.png);
+}
+
+
+#buttondelete
+{
+	background-image:url(../images/website/delete1.png);
+	width:100px;
+	height:40px;
+	position: absolute;
+	margin-top:18px;
+	margin-left:20px;
+}
+
+#buttondelete:hover
+{
+	background-image:url(../images/website/delete2.png);
+}
+#buttondelete:active
+{
+	background-image:url(../images/website/delete3.png);
+}
+
+.ds_box {
+	background-color: #FFF;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #333;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #EEE;
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #FCFCFC;
+} /* This hover code won't work for IE */
+
