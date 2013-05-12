@@ -1,0 +1,305 @@
+/* CSS named design.css */
+
+body
+{
+   width: 730px;
+   margin: auto; /* To center the frame */
+   margin-top: 20px; /* Get some space */
+   margin-bottom: 20px;    
+   background-color: #252525;
+   background-image: url("images/Frise.jpg");
+   background-repeat: no-repeat;
+   background-position: 50% 20%;
+   background-attachment:fixed;
+}
+
+#head0
+{
+   width: 404px;
+   height: 40px;
+   background-image: url("images/CareerDevelopper.jpg");
+   background-repeat: no-repeat;
+	margin:0px;
+}
+
+#logout
+{
+text-align:center;
+	color:white;
+   width: 60px;
+   height: 22px;
+   text-decoration: none;
+   background-image: url("images/logout.jpg");
+   background-repeat: no-repeat;
+	float:right;
+   font-size:11px;
+   padding-top:3px;
+	
+   }
+
+
+#head
+{
+   width: 730px;
+   height: 250px;
+   background-image: url("images/banniere.jpg");
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+}
+
+
+
+#bodyChange
+{
+	
+	width: 550px;
+	margin-left:120px;
+	margin-right:120px;
+
+}
+
+/*******************************************************/
+/******************** foot *****************************/
+/*******************************************************/
+#frameFoot {
+	
+	width: 730px;
+	margin-top:10px;
+	text-align:center;
+	float:right;
+	color: #61564a;
+	font-style:italic;
+	font-size:11px;
+
+}
+/*******************************************************/
+/******************** linkbox area *********************/
+/*******************************************************/
+#linkbox {
+	position:fixed;
+	height: 49px;
+	width: 729px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: #61564a;
+	margin-bottom: 10px;
+
+}
+
+#linkbox ul {
+ padding:0;
+ margin:0px;
+ list-style-type:none;
+ }
+ #linkbox li {
+ float:left; /* pour IE*/
+ 
+ }
+#linkbox ul li a {
+ display:block;
+ float:left;   
+ width:150px;
+ margin-left:26px;
+ line-height:44px; 
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ background:black url(images/Background_links1.jpg) repeat-x;
+ font-weight: bold ;
+ }
+#linkbox ul li a:hover {
+ background:black url(images/Background_links2.jpg) repeat-x;
+ color:white;
+ }  
+ 
+ 
+/*******************************************************/
+/*************** login area (first page) ***************/
+/*******************************************************/
+
+#signin
+{
+	float:right;
+	width: 200px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	
+	color: white;
+	font-size:11px;
+}
+a:link
+{
+	color: #c7701d;
+	text-decoration:none;
+}
+a:visited /* propriétés des liens déjà visités */
+{
+   color: #c7701d;
+	text-decoration:none;
+}
+#imgsignin
+{
+	
+	background-color: #1f1e1d;
+	background-image:url(images/signin.jpg);
+	background-repeat:no-repeat;
+	line-height:20px;
+	height: 21px;
+	width: 165px;
+}
+
+#signinbutton
+{
+	margin-top: 30px; 
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float: right;
+	height: 24px;
+	width: 60px;
+	
+}
+
+/*******************************************************/
+/*************** main area (first page) ****************/
+/*******************************************************/
+
+#imgnews
+{
+	
+	background-image:url(images/take_control.jpg);
+	background-repeat:no-repeat;
+	height: 17px;
+	margin-left:20px;
+}
+
+#take
+{
+	
+	background-image:url(images/take_control.jpg);
+	background-repeat:no-repeat;
+	
+	
+}
+
+
+#indexmain
+{
+	
+	width: 520px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: #FFFFFF;
+
+}
+
+/*******************************************************/
+/************** main area (register page) **************/
+/*******************************************************/
+#register
+{
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: #FFFFFF;
+
+}
+
+/*******************************************************/
+/*************** main area (logged page) ***************/
+/*******************************************************/
+#homemain
+{
+	height: 370px;
+	width: 729px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: #61564a;
+
+}
+
+
+/*******************************************************/
+/*************** main area (Profile page) ***************/
+/*******************************************************/
+
+#profile_menu img
+{
+
+	
+	width: 150px;
+	
+}
+
+#profile_menu
+{
+	float:left;
+	width: 152px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: white;
+	font-size:12px;
+}
+
+#profile_main
+{
+	
+	width: 570px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: #FFFFFF;
+	float:right;
+}
+/*******************************************************/
+/*********** serach jobs (display of users) ************/
+/*******************************************************/
+
+
+#tabjobs, #tabjobs img
+{
+	
+	
+	height: 70px;
+	
+}
+
+/*******************************************************/
+/******************* Career Tools **********************/
+/*******************************************************/
+
+
+
+#career_tools
+{
+	
+	width: 729px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: #EDEDED;
+	
+}
+
+/*******************************************************/
+/*********************** About us **********************/
+/*******************************************************/
+
+#admin_pic img
+{
+	width: 150px;
+}
+#admin_pic
+{
+	float:left;
+	width: 152px;
+	background-color: #2a251f;
+	border: 1px solid ;
+	border-color: #38332d;
+	color: white;
+	
+}
